@@ -1,0 +1,184 @@
+/*
+
+
+*/
+
+@media (max-width: 300px) {
+    body {
+        display: none;
+    }
+}
+
+
+@media (min-width: 301px) {
+    .wrapper {
+        margin: 2vw 2vw 15vw 2vw;
+    }
+
+    .box-carts {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 600px) {
+
+    .loyalty-card {
+        display: flex;
+        align-items: center;
+        width: 584px;
+        margin: 40px auto 0 auto;
+    }
+
+    .text-card {
+        margin: 30px 0 44px 40px;
+        width: 100%;
+    }
+
+    .box-special-item {
+        max-width: 100%;
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+
+    .text-card h4 {
+        text-align: left;
+        margin: 0;
+    }
+
+    .text-card p {
+        text-align: left;
+        padding: 0;
+        margin: 6px 0 0 0;
+    }
+
+    .nav-foot-ul {
+        justify-content: flex-start;
+    }
+
+    .col {
+        height: 200px;
+    }
+
+    .img-card {
+        width: 49%;
+    }
+
+    .card-col {
+        left: 349px;
+        top: 14px;
+        z-index: 3;
+    }
+
+    .img01 {
+        left: 361px;
+        top: 14px;
+    }
+
+    .img02 {
+        left: 500px;
+        top: 27px;
+    }
+
+    .img03 {
+        left: 497px;
+        top: 146px;
+    }
+
+
+    .img04 {
+        left: 361px;
+        top: 148px;
+    }
+
+    .img05 {
+        left: 320px;
+        top: 49px;
+    }
+
+    .img06 {
+        left: 178px;
+        top: 17px;
+    }
+
+    .img07 {
+        left: 538px;
+        top: 14px;
+    }
+
+    .img08 {
+        left: 567px;
+        top: 173px;
+    }
+
+    .img09 {
+        left: 21px;
+        top: 176px;
+    }
+
+    .img10 {
+        left: 338px;
+        top: 102px;
+    }
+
+    .img11 {
+        left: 445px;
+        top: 17px;
+    }
+
+    .img12 {
+        left: 314px;
+        top: 167px;
+    }
+
+    .img13 {
+        left: 515px;
+        top: 102px;
+    }
+
+}
+
+@media (min-width: 810px) {
+    .box-carts {
+        justify-content: space-around;
+    }
+
+    .box-nav {
+        max-height: 354px;
+    }
+
+}
+
+
+@media (min-width: 1250px) {
+
+    .wrapper {
+        text-align: left;
+    }
+
+    .box-special-item {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+@media (min-width: 1438px) {
+
+    .wrapper {
+        margin: 1.67vw 13.3vw 4vw 2.78vw;
+    }
+
+    .box-special-item {
+        justify-content: space-between;
+    }
+
+}
+
+
+@media (min-width: 1430px) {
+
+
+}
+
+
+
