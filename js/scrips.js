@@ -40,16 +40,15 @@ buttonBasket.forEach(el => {
         section.appendChild(h6)
         section.appendChild(span)
 
-        const close = document.querySelectorAll('.close')
-
-        close.forEach(elem => {
-            elem.addEventListener('click', () => {
-                elem.closest('li').remove()
-            })
-        })
+        purchases.addEventListener('click', close)
 
     })
 })
+
+function close(event) {
+    if (event.target.className !== 'close') return
+    event.target.closest('li').remove()
+}
 
 
 buttonCity.forEach(city => {
